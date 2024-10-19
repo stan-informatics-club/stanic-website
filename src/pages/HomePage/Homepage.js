@@ -15,7 +15,12 @@ function Homepage() {
       >
         <Box
           component="img"
-          sx={{ height: "88vh", objectFit: "cover", width: "100vw" }}
+          sx={{
+            height: "88vh",
+            objectFit: "cover",
+            width: "100vw",
+            filte: "brightness(90%)",
+          }}
           alt="logo-sic"
           src="/img/banner.png"
         ></Box>
