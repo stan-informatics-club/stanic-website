@@ -19,7 +19,7 @@ function Homepage() {
             height: "88vh",
             objectFit: "cover",
             width: "100vw",
-            filte: "brightness(90%)",
+            filte: "brightness(80%)",
           }}
           alt="logo-sic"
           src="/img/banner.png"
@@ -46,7 +46,7 @@ function Homepage() {
           <Typography
             sx={{
               color: "white",
-              fontWeight: 100,
+              fontWeight: 300,
               fontSize: "1em",
               padding: "1em",
             }}
