@@ -30,7 +30,11 @@ function BottomRibbon() {
               padding: "2em",
             }}
           >
-            <Link to="https://google.com">
+            <Link
+              to="https://www.instagram.com/ic.pknstan/"
+              target="_blank"
+              rel="noopener"
+            >
               <Box
                 component="img"
                 sx={{ height: { xs: "1.8em", md: "2.8em" } }}
@@ -38,7 +42,11 @@ function BottomRibbon() {
                 src="/img/socmed-1.png"
               />
             </Link>
-            <Link to="https//instagram.com">
+            <Link
+              to="https://www.linkedin.com/in/stan-informatics-club-18936b323"
+              target="_blank"
+              rel="noopener"
+            >
               <Box
                 component="img"
                 sx={{ height: { xs: "2em", md: "3em" } }}
