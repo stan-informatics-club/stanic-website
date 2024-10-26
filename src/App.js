@@ -18,7 +18,7 @@ import PR from "./pages/PR/PR";
 import DS from "./pages/DS/DS";
 import Design from "./pages/Design/Design";
 import PreLoader from "./components/PreLoader/PreLoader";
-import Project from "./components/Project/Project"
+import Project from "./pages/Project/Project";
 
 const theme = createTheme();
 
