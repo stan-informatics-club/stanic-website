@@ -18,6 +18,7 @@ import PR from "./pages/PR/PR";
 import DS from "./pages/DS/DS";
 import Design from "./pages/Design/Design";
 import PreLoader from "./components/PreLoader/PreLoader";
+import Project from "./components/Project/Project"
 
 const theme = createTheme();
 
@@ -47,6 +48,7 @@ function App() {
               <Route path="/public-relation" element={<PR />} />
               <Route path="/data-science" element={<DS />} />
               <Route path="/design" element={<Design />} />
+              <Route path="/project" element={<Project />} />
             </Routes>
             <BottomRibbon />
           </>
