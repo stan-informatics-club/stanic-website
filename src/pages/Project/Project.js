@@ -10,7 +10,7 @@ function Project() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          width: { xs: "90vw", md: "60vw" },
+          width: { xs: "90vw", md: "90vw" },
         }}
       >
         <Grid
