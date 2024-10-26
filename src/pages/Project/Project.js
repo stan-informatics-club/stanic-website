@@ -5,7 +5,7 @@ import PortraitCard from "../../components/Card/PortraitCard";
 function Project() {
   return (
     <div>
-      <Box>
+      <Box sx={{ width: "88vw" }}>
         <PortraitCard
           title="Random Quotes Generator"
           description="Website untuk menampilkan quotes secara acak"
